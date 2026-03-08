@@ -1,1 +1,27 @@
 .DS_Store
+
+# Large data files
+*.csv
+*.tsv
+*.parquet
+*.arrow
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.npz
+*.npy
+
+# HuggingFace cache
+~/.cache/huggingface/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
